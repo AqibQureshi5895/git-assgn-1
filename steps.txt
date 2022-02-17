@@ -37,8 +37,10 @@
 12. Check branch
     -$ git branch
 
-13. create a file dev.txt
-    -$ touch steps.txt
+13. create a file dev.txt and modifiy/add some text to it
+    -$ touch dev.txt
+    -$ notepad dev.txt
+
 
 14. check status 
     -$ git status
@@ -96,9 +98,13 @@
     -$ git log
     // no output of file commited in different branches
 
+30. check difference in branch w.r.t master
+    -$ git branch dev
+    -$ git branch test
+
 31. Start merge
-    -$ git merger dev
-    -$ git merger test
+    -$ git merge dev
+    -$ git merge test
 
 32. check log
     -$ git log
